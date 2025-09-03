@@ -1,13 +1,79 @@
-# React + Vite
+# Anecdotes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small React application built as part of the Fullstack Open
+course (Osa 1, Exercises 1.12–1.14). It demonstrates React state management and handling of user interactions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays a random programming-related anecdote when clicking Next Anecdote.
 
-## Expanding the ESLint configuration
+- Allows users to vote for their favorite anecdotes using the Vote button.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# anekdootit
+- Tracks votes separately for each anecdote.
+
+- Displays the anecdote with the most votes in real time.
+
+## Technologies Used
+
+- React
+
+- JavaScript (ES6+)
+
+- Functional Components
+
+- React Hooks (useState)
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/bean-123/anekdootit>
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd anekdootit
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open the app in your browser
+   Go to http://localhost:3000
+
+## Project Structure
+
+```
+anecdotes-app/
+├─ App.jsx # Main React component with the application logic
+├─ index.js # Entry point rendering the app to the DOM
+├─ package.json # Project metadata and dependencies
+├─ node_modules/ # Installed npm packages
+```
+
+## Usage
+
+- Click `Next Anecdote` to show a new random anecdote.
+
+- Click `Vote` to increment the vote count of the currently displayed anecdote.
+
+- The anecdote with the most votes is displayed in a separate section.
+
+## Notes
+
+- The vote counts are reset when the page is refreshed.
+
+- Random anecdotes may repeat; this is expected behavior.
+
+### Author
+
+Amy
+
+## License
+
+This project is for educational purposes as part of the Fullstack Open course.
