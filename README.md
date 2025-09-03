@@ -1,7 +1,7 @@
 # Anecdotes App
 
-This is a small React application built as part of the Fullstack Open
-course (Osa 1, Exercises 1.12–1.14). It demonstrates React state management and handling of user interactions.
+This is a small React application built as part of the [Fullstack Open
+course](https://fullstackopen.com/osa1/monimutkaisempi_tila_reactin_debuggaus#tehtavat-1-6-1-14) (Osa 1, Exercises 1.12–1.14). It demonstrates React state management and handling of user interactions.
 
 ## Features
 
